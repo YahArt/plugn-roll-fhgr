@@ -17,10 +17,42 @@
           <a href="#">Geschäftskunden</a>
           <div class="uk-navbar-dropdown">
             <ul class="uk-nav uk-navbar-dropdown-nav">
-              <li><a href="#">Immobilien</a></li>
-              <li><a href="#">Arbeitgeber</a></li>
-              <li><a href="#">Öffentliches Laden</a></li>
-              <li><a href="#">Tourismus & Gastro</a></li>
+              <router-link
+                to="/property"
+                custom
+                v-slot="{ navigate, href, route }"
+              >
+                <li>
+                  <a :href="href" @click="navigate">{{ route.name }}</a>
+                </li>
+              </router-link>
+              <router-link
+                to="/employer"
+                custom
+                v-slot="{ navigate, href, route }"
+              >
+                <li>
+                  <a :href="href" @click="navigate">{{ route.name }}</a>
+                </li>
+              </router-link>
+              <router-link
+                to="/public_charging"
+                custom
+                v-slot="{ navigate, href, route }"
+              >
+                <li>
+                  <a :href="href" @click="navigate">{{ route.name }}</a>
+                </li>
+              </router-link>
+              <router-link
+                to="/tourism_and_gastro"
+                custom
+                v-slot="{ navigate, href, route }"
+              >
+                <li>
+                  <a :href="href" @click="navigate">{{ route.name }}</a>
+                </li>
+              </router-link>
               <li><a href="#">Referenzen</a></li>
             </ul>
           </div>
