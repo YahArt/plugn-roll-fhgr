@@ -5,6 +5,7 @@ import Property from '../components/Property.vue';
 import Employer from '../components/Employer.vue';
 import PublicCharging from '../components/PublicCharging.vue';
 import TourismAndGastro from '../components/TourismAndGastro.vue';
+import Register from '../components/Register.vue';
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/tourism_and_gastro',
     name: 'Tourismus & Gastro',
     component: TourismAndGastro,
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    component: Register,
   }
 ];
 

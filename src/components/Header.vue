@@ -113,9 +113,11 @@
           <li>
             <a href="#" uk-toggle="target: #login-modal">Login</a>
           </li>
-          <li>
-            <a href="#">Registrieren</a>
-          </li>
+          <router-link to="/register" custom v-slot="{ navigate, href, route }">
+            <li>
+              <a :href="href" @click="navigate">{{ route.name }}</a>
+            </li>
+          </router-link>
         </ul>
       </div>
 
@@ -211,7 +213,15 @@
               <a href="#" uk-toggle="target: #login-modal">Login</a>
             </li>
             <li>
-              <a href="#">Registrieren</a>
+              <router-link
+                to="/register"
+                custom
+                v-slot="{ navigate, href, route }"
+              >
+                <li>
+                  <a :href="href" @click="navigate">{{ route.name }}</a>
+                </li>
+              </router-link>
             </li>
           </ul>
         </div>
