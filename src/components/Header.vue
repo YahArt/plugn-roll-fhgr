@@ -243,7 +243,7 @@
             "
           >
             <span uk-icon="icon: user; ratio: 1"></span>
-            Private e-drive - I drive an e-car
+            Privater E-Drive : Ich fahre ein Elektroauto.
           </button>
           <button
             class="
@@ -253,7 +253,7 @@
             "
           >
             <span uk-icon="icon: server; ratio: 1"></span>
-            Business customer - I represent a company
+            Geschäftskunde: Ich vertrete eine Firma.
           </button>
           <button
             class="
@@ -263,7 +263,7 @@
             "
           >
             <span uk-icon="icon: mail; ratio: 1"></span>
-            Individual fleet customer - I was invited by my company
+            Individueller Flottenkunde: Von meiner Firma eingeladen.
           </button>
         </p>
       </div>

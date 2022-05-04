@@ -37,7 +37,7 @@ const routes = [
   },
   {
     path: '/register',
-    name: 'Register',
+    name: 'Registrieren',
     component: Register,
   }
 ];

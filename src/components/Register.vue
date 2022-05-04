@@ -28,16 +28,16 @@
             uk-svg
           />
           <div class="uk-text-left">
-            <h2 class="uk-text-bold">Create a new account</h2>
-            <p>I want to register as:</p>
+            <h2 class="uk-text-bold">Neues Konto erstellen</h2>
+            <p>Ich möchte mich registrieren als:</p>
 
             <div
               class="
                 uk-card uk-card-default uk-card-small uk-card-body uk-margin
               "
             >
-              <div class="uk-card-badge uk-label">Private e-driver</div>
-              <h3 class="uk-card-title">I drive an e-car.</h3>
+              <div class="uk-card-badge uk-label">Privater E-Driver</div>
+              <h3 class="uk-card-title">Ich fahre eine Elektroauto.</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -49,8 +49,8 @@
                 uk-card uk-card-default uk-card-small uk-card-body uk-margin
               "
             >
-              <div class="uk-card-badge uk-label">Business customer</div>
-              <h3 class="uk-card-title">I represent a company.</h3>
+              <div class="uk-card-badge uk-label">Geschäftskunde</div>
+              <h3 class="uk-card-title">Ich vertrete eine Firma.</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -63,9 +63,11 @@
               "
             >
               <div class="uk-card-badge uk-label">
-                Individual fleet customer
+                Individueller Flottenkunde
               </div>
-              <h3 class="uk-card-title">I was invited by my company.</h3>
+              <h3 class="uk-card-title">
+                Ich wurde von meiner Firma eingeladen.
+              </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
